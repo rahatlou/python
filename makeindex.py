@@ -4,6 +4,7 @@ import os, sys
 mypath = "."
 
 files = os.listdir(mypath)
+files.sort()
 fname = 'test.html'
 
 if len(sys.argv)> 1:
